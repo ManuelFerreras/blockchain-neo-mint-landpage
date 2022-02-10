@@ -10,7 +10,7 @@ export default () => {
 
         <>
         
-            <div className="team-block">
+            <div className="team-block" id="team">
 
                 <h2>Team</h2>
 

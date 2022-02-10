@@ -8,7 +8,7 @@ export default () => {
 
             <div className="about-bg">
         
-                <div className="about-block">
+                <div className="about-block" id="about">
 
                     <h2>About</h2>
 

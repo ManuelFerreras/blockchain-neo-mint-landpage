@@ -16,22 +16,19 @@ export default () => {
 
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <a className="nav-link" href="#about">About</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#roadmap">Roadmap</a>
-                  </li>
-                  <li className="nav-item">
                     <a className="nav-link" href="#mint">Mint</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#whitepaper">WhitePaper</a>
+                    <a className="nav-link" href="#about">About</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#team">Team</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#cta">DApp</a>
+                    <a className="nav-link" href="#roadmap">Roadmap</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#whitepaper">WhitePaper</a>
                   </li>
                 </ul>
 
