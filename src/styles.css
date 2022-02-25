@@ -127,11 +127,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("./bg2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .mint-block h2 {
@@ -272,10 +267,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .6);
-    background-position: start;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .roadmap-block h2 {
@@ -373,11 +364,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("./bg2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .team-block h2 {
@@ -414,38 +400,7 @@ a {
     text-align: center;
     margin: 0;
     width: 100%;
-}
-
-/* About Container */
-.about-bg {
-    background-image: url("./bg3.gif");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.about-block {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, .6);
-}
-
-.about-block h2 {
-    font-size: 4rem;
-    margin: 4rem 0;
-}
-
-.about-block p {
-    font-size: 1.2rem;
-    width: 80%;
-    color: white;
-    text-align: center;
-    margin-bottom: 4vmin;
-    line-height: 2;
-    text-align: center;
-}
+}x
 
 /* Media Queries */
 @media (max-width: 1024px) {
@@ -494,4 +449,12 @@ a {
     .about-block p, .team-block p, .whitepaper-block p {
         font-size: 3vmin;
     }
+}
+
+.bg2 {
+    background-image: url("./bg2.png");
+    background-color: rgba(0, 0, 0, .6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

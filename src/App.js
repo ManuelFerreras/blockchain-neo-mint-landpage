@@ -11,7 +11,6 @@ import Mint from "./Mint";
 import Roadmap from "./Roadmap";
 import Whitepaper from './Whitepaper';
 import Footer from './Footer';
-import Separator from './Separator';
 import Team from './Team';
 
 
@@ -63,17 +62,15 @@ function App() {
 
       <div className='bodyPart'>
 
-        <Mint login={ login } connected={ connected } cont={contract} />
+        <div className='bg2'>
 
-        <Separator />
+          <Mint login={ login } connected={ connected } cont={contract} />
 
-        <Team />
-
-        <Separator />
+          <Team />
+          
+        </div>
 
         <Roadmap />
-
-        <Separator />
         
         <Whitepaper />
         
