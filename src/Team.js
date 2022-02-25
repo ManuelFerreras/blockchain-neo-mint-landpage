@@ -1,8 +1,12 @@
 import React from "react";
 
 import nft1 from "./11.png";
-import nft2 from "./355.png";
-import nft3 from "./656.png";
+import nft2 from "./12.png";
+import nft3 from "./13.png";
+import nft4 from "./20.png";
+import nft5 from "./21.png";
+import nft6 from "./28.png";
+import nft7 from "./29.png";
 
 export default () => {
 
@@ -29,25 +33,6 @@ export default () => {
                         <div className="inner-box">
                             <img src={nft2} alt="" title="" />
                             <div className="lower-box">
-                                <h3>Fungible Dude</h3>
-                                <p>Co-Founder, Managing Director, Project Strategist</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
-                        <div className="inner-box">
-                            <img src={nft3} alt="" title="" />
-                            <div className="lower-box">
-                                <h3>NicolaKay383</h3>
-                                <p>Community manager, Marketing Director, Team Spokesperson</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
-                        <div className="inner-box">
-                            <img src={nft1} alt="" title="" />
-                            <div className="lower-box">
                                 <h3>Blkwolfgang</h3>
                                 <p>Head Discord Moderator</p>
                             </div>
@@ -55,7 +40,7 @@ export default () => {
                     </div>
                     <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
                         <div className="inner-box">
-                            <img src={nft2} alt="" title="" />
+                            <img src={nft3} alt="" title="" />
                             <div className="lower-box">
                                 <h3>Max Parata</h3>
                                 <p>Lead Voxel/3D Artist</p>
@@ -64,7 +49,7 @@ export default () => {
                     </div>
                     <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
                         <div className="inner-box">
-                            <img src={nft3} alt="" title="" />
+                            <img src={nft4} alt="" title="" />
                             <div className="lower-box">
                                 <h3>Krakonner_</h3>
                                 <p>Pixel Artist</p>
@@ -74,7 +59,7 @@ export default () => {
 
                     <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
                         <div className="inner-box">
-                            <img src={nft1} alt="" title="" />
+                            <img src={nft5} alt="" title="" />
                             <div className="lower-box">
                                 <h3>Ansimuz</h3>
                                 <p>Pixel Artist</p>
@@ -83,7 +68,7 @@ export default () => {
                     </div>
                     <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
                         <div className="inner-box">
-                            <img src={nft2} alt="" title="" />
+                            <img src={nft6} alt="" title="" />
                             <div className="lower-box">
                                 <h3>NuMa</h3>
                                 <p>Sodivdity Dev, Front-end Dev</p>
@@ -92,7 +77,7 @@ export default () => {
                     </div>
                     <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
                         <div className="inner-box">
-                            <img src={nft3} alt="" title="" />
+                            <img src={nft7} alt="" title="" />
                             <div className="lower-box">
                                 <h3>Bilquees</h3>
                                 <p>Sodivdity Dev</p>
