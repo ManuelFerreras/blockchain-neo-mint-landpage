@@ -7,6 +7,7 @@ import nft4 from "./20.png";
 import nft5 from "./21.png";
 import nft6 from "./28.png";
 import nft7 from "./29.png";
+import nft8 from "./4.png";
 
 export default () => {
 
@@ -68,7 +69,7 @@ export default () => {
                     </div>
                     <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
                         <div className="inner-box">
-                            <img src={nft6} alt="" title="" />
+                            <img src={nft8} alt="" title="" />
                             <div className="lower-box">
                                 <h3>NuMa</h3>
                                 <p>Sodivdity Dev, Front-end Dev</p>
@@ -81,6 +82,16 @@ export default () => {
                             <div className="lower-box">
                                 <h3>Bilquees</h3>
                                 <p>Sodivdity Dev</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="team-block-info col-lg-4 col-md-6 col-sm-12" >
+                        <div className="inner-box">
+                            <img src={nft6} alt="" title="" />
+                            <div className="lower-box">
+                                <h3>Crypto Fail</h3>
+                                <p>Community Manager</p>
                             </div>
                         </div>
                     </div>
