@@ -10,12 +10,12 @@
 
 /* Global */
 body {
-    background-color: black;
     color: var(--cuarto);
     min-height: 100vh;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(./bg2.png);
 }
 
 *{
@@ -57,20 +57,22 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 80%;
+    margin: auto auto;
 }
 
 .top {
     display: flex;
     flex-flow: column;
     min-height: 100%;
-    background-color: rgba(0, 0, 0, .6);
+    margin-bottom: 20vh;
 }
 
 .top .top-nav {
     position: fixed;
     z-index: 2;
     width: 100%;
-    background-color: rgba(0, 0, 0, .6);
+    left: 0;
 }
 
 .top .top-nav .navbar {
@@ -127,6 +129,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    margin: auto auto;
+    margin-bottom: 20vh;
 }
 
 .mint-block h2 {
@@ -262,11 +267,14 @@ a {
 
 /* RoadMap Block */
 .roadmap-block {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-bottom: 20vh;
 }
 
 .roadmap-block h2 {
@@ -295,6 +303,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
@@ -364,6 +373,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20vh;
 }
 
 .team-block h2 {
@@ -453,6 +465,7 @@ a {
 
 .bg2 {
     background-image: url("./bg2.png");
+    background-image: none;
     background-color: rgba(0, 0, 0, .6);
     background-position: center;
     background-repeat: no-repeat;

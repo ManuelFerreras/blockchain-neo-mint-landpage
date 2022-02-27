@@ -10,6 +10,8 @@ export default () => {
         
             <div className="roadmap-block" id="roadmap">
 
+                <h2>Roadmap</h2>
+
                 <img src={bg} />
                 
             </div>
