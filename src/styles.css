@@ -412,7 +412,7 @@ a {
     text-align: center;
     margin: 0;
     width: 100%;
-}x
+}
 
 /* Media Queries */
 @media (max-width: 1024px) {
@@ -423,6 +423,10 @@ a {
 
     .btn-connect {
         display: none;
+    }
+
+    .lg-bg {
+        width: 100%;
     }
 }
 
